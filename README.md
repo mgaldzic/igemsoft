@@ -23,3 +23,7 @@ How to update
 6. Use Babel http://service.simile-widgets.org/babel/ to convert to Exhibit JSON.
 7. Replace all "\'" with "'", the "\" <escape> char is not needed and throws an error.  
 8. Rename file to data.js and test the updated data
+
+Exhibit Refrence Docs
+---------------------
+http://simile-widgets.org/wiki/Reference_Documentation_for_Exhibit
