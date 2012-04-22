@@ -1,3 +1,0 @@
-year	team	label	description	category	url	update	status	contact
-2008	Calgary_Software	EvoGEM 	"A software program that uses the registry of genetic parts provided by the iGEM competition. In this design, we used evolutionary and genetic strategies, which are useful modeling methods, especially when coupled with agent-based designs."	Circuit design and simulation	http://2008.igem.org/Team:Calgary_Software/Notebook and http://2008.igem.org/Team:Calgary_Software/Project	2008	not active	 igem@ucalgary.ca
-2008	Bologna	ARQ	a Java tool to query the Registry	Repository	http://2008.igem.org/Team:Bologna/Software	2008	active	 igem@ucalgary.ca
