@@ -6,6 +6,7 @@ http://igem.synbioreview.com/
 How it works:
 -------------
 The .js file eg 20120421igem_soft_links.js has the listing of the data
+
 The .html file is the template page
 
 Exhibit 3.0 runs the JavaScript to display the page
