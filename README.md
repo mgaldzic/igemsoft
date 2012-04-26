@@ -24,7 +24,7 @@ How to update
 7. Put in the following as the header row, best to copy from another spreadsheet: "year	team	label	description	category	url	update	status	contact	dependency	free"
 8. Download as Text -this will make a tab separated value (TSV) file.
 9. Use Babel http://service.simile-widgets.org/babel/ to convert to Exhibit JSON.
-10. Replace all "\'" with "'", the "\" \<escape\> char is not needed and throws an error. Eg in vi use: ":% s/\\\'/'/g" 
+10. Replace all "\'" with "'", the "\" \<escape\> char is not needed and throws an error. Eg in vi use: <code>:% s/\\'/'/g </code>
 11. Test the new/updated data, submit pull request
 
 Exhibit Refrence Docs
