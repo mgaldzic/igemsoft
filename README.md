@@ -21,7 +21,7 @@ How to update
 4. Sort (Range) by Description. This puts the rows with a description at the top.
 5. Delete all rows without descriptions.
 6. Find/Replace all \t, \<tab\>, "	" chars with a \<space\>, " ".
-7. Put in the following as the header row, best to copy from another spreadsheet: "year	team	label	description	category	url	update	status	contact	dependency	free"
+7. Put in the following as the header row, best to copy from another spreadsheet: "year	team	label	description	category	url	update	status	contact	dependency	free	source"
 8. Download as Text -this will make a tab separated value (TSV) file.
 9. Use Babel http://service.simile-widgets.org/babel/ to convert to Exhibit JSON.
 10. Replace all "\'" with "'", the "\" \<escape\> char is not needed and throws an error. Eg in vi use: <code>:% s/\\'/'/g </code>
