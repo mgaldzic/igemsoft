@@ -5,7 +5,7 @@
 			"url" :         "http:\/\/2010.igem.org\/Team:TU_Delft#page=Software\/im-tutorial",
 			"category" :    "Protein Interaction Prediction",
 			"team" :        "TU_Delft",
-			"dependency" :  "Access to running STRING database with the items, network and homology schema\'s, plugin jars from the Interaction Mapping binary package to the Cytoscape plugin directory.",
+			"dependency" :  "Access to running STRING database with the items, network and homology schema's, plugin jars from the Interaction Mapping binary package to the Cytoscape plugin directory.",
 			"update" :      "2010",
 			"status" :      "Finished",
 			"contact" :     "Jelmer Cnossen",
@@ -227,7 +227,7 @@
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "SynBioWave",
-			"description" : "Based on Google\'s collaboration and communication tool Wave. Made for collaborative research comprising parts design and documentation. Synthetic biologists can record and share the process of creating research data and perform basic tasks using SynBioWave. This gives synthetic biology access to the collaborative and interactive web 2.0."
+			"description" : "Based on Google's collaboration and communication tool Wave. Made for collaborative research comprising parts design and documentation. Synthetic biologists can record and share the process of creating research data and perform basic tasks using SynBioWave. This gives synthetic biology access to the collaborative and interactive web 2.0."
 		},
 		{
 			"url" :         "http:\/\/sourceforge.net\/projects\/keplerclotho\/",
@@ -285,7 +285,7 @@
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "Spectacles",
-			"description" : "A visual editing framework for the design of composite biological devices and the assignment of physical samples to functional concepts. In order to design composite devices, Spectacles provides a visual editing environment. Not only does this allow for a complete drag and drop \"schematic\" editor style design experience, but it also checks and enforces Eugene based rules, provides visual cues regarding the design\'s properties, and is completely integrated with the rest of the Clotho design environment. The latter allows the user to assign actual parts from registries to the functional concept captured by Spectacles."
+			"description" : "A visual editing framework for the design of composite biological devices and the assignment of physical samples to functional concepts. In order to design composite devices, Spectacles provides a visual editing environment. Not only does this allow for a complete drag and drop \"schematic\" editor style design experience, but it also checks and enforces Eugene based rules, provides visual cues regarding the design's properties, and is completely integrated with the rest of the Clotho design environment. The latter allows the user to assign actual parts from registries to the functional concept captured by Spectacles."
 		},
 		{
 			"url" :         "http:\/\/2008.igem.org\/Team:BCCS-Bristol\/Modeling-Software",
@@ -443,7 +443,7 @@
 			"type" :        "Item",
 			"year" :        "2010",
 			"label" :       "PartsRobot",
-			"description" : "Helps iGEM teams and other researchers submit spreadsheets of standard biological parts to the Parts Registry at MIT. The current version has been tested by the Washington 2010 team, but we\'d love to hear your experience too! If it works we\'ll feel good about ourselves, and if not we\'ll try to fix it."
+			"description" : "Helps iGEM teams and other researchers submit spreadsheets of standard biological parts to the Parts Registry at MIT. The current version has been tested by the Washington 2010 team, but we'd love to hear your experience too! If it works we'll feel good about ourselves, and if not we'll try to fix it."
 		},
 		{
 			"source" :      "http:\/\/igem.uwaterloo.ca\/biomortar-svn",
@@ -763,7 +763,7 @@
 			"type" :        "Item",
 			"year" :        "2011",
 			"label" :       "Optimus Primer",
-			"description" : "Allows users to create a primer design from a selected gene. Users can then can BLAST designs and run tests based on alignment and Gibb\'s free energy. Both applications make use of the same algorithms and allow saving as BioBricks. It is designed for integration with Clotho and allows users to save designs as BioBricks. Users can select a number of bases and run tests to determine the sustainability of their designs."
+			"description" : "Allows users to create a primer design from a selected gene. Users can then can BLAST designs and run tests based on alignment and Gibb's free energy. Both applications make use of the same algorithms and allow saving as BioBricks. It is designed for integration with Clotho and allows users to save designs as BioBricks. Users can select a number of bases and run tests to determine the sustainability of their designs."
 		},
 		{
 			"source" :      "http:\/\/tinkercellextra.svn.sourceforge.net\/viewvc\/tinkercellextra\/",
@@ -848,7 +848,7 @@
 			"type" :        "Item",
 			"year" :        "2007",
 			"label" :       "Gene Splitting",
-			"description" : "Designed to tell you what 4 primers will be used to split a gene, such that hixC can be inserted within the gene\'s coding sequence"
+			"description" : "Designed to tell you what 4 primers will be used to split a gene, such that hixC can be inserted within the gene's coding sequence"
 		},
 		{
 			"source" :      "http:\/\/sourceforge.net\/projects\/igemzjuchina\/files\/Bach_source.rar\/download",
@@ -1205,7 +1205,7 @@
 			"type" :        "Item",
 			"year" :        "2010",
 			"label" :       "Gibthon Construct Designer",
-			"description" : "Design your construct from its component genes and automatically generate the optimal primers. The tool has access to the Parts Registry Database, the NCBI\'s Nucleotide database, as well as accepting genbank formatted files from the user. The user is able to store constructs and their own genes for recovery later. A powerful Gibthon tool."
+			"description" : "Design your construct from its component genes and automatically generate the optimal primers. The tool has access to the Parts Registry Database, the NCBI's Nucleotide database, as well as accepting genbank formatted files from the user. The user is able to store constructs and their own genes for recovery later. A powerful Gibthon tool."
 		},
 		{
 			"source" :      "http:\/\/2010.igem.org\/wiki\/images\/c\/ca\/TUM2010_Software_src.zip",
