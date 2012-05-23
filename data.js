@@ -1,26 +1,59 @@
 {
 	"items" : [
 		{
-			"contact" :     "dbche@mail.ustc.edu.cn",
-			"label" :       "Automatic Biological Circuit Design (ABCD)",
-			"url" :         "http:\/\/2009.igem.org\/Team:USTC_Software AND DOWNLOAD here http:\/\/sourceforge.net\/projects\/ustcabcd\/",
-			"team" :        "USTC_Software",
+			"source" :      "https:\/\/github.com\/jcnossen\/InteractionHomologMapping",
+			"url" :         "http:\/\/2010.igem.org\/Team:TU_Delft#page=Software\/im-tutorial",
+			"category" :    "Protein Interaction Prediction",
+			"team" :        "TU_Delft",
+			"dependency" :  "Access to running STRING database with the items, network and homology schema\'s, plugin jars from the Interaction Mapping binary package to the Cytoscape plugin directory.",
+			"update" :      "2010",
+			"status" :      "Finished",
+			"contact" :     "Jelmer Cnossen",
+			"free" :        "Yes",
 			"type" :        "Item",
-			"year" :        "2009",
-			"description" : "Automatically design synthetic complex biological networks with desired functions defined as dynamical behavior and input-output properties. This Systems Biology Markup Language software won the Gold medal for the 2009 iGEM jamboree",
-			"category" :    "biological network design"
+			"year" :        "2010",
+			"label" :       "Interaction Mapping Application",
+			"description" : "Find putative interactions of proteins in a new host organism."
 		},
 		{
-			"url" :         "http:\/\/2008.igem.org\/Team:Newcastle_University\/Constraints_Repository, could not find download link (supposed to be here: http:\/\/research.ncl.ac.uk\/synthetic_biology\/downloads.html)",
+			"url" :         "http:\/\/2011.igem.org\/Team:BU_Wellesley_Software\/Trumpet",
+			"category" :    "Design",
+			"team" :        "BU_Wellesley_Software",
+			"dependency" :  "Windows, Microsoft Surface",
+			"update" :      "Sept 2011",
+			"status" :      "finished",
+			"contact" :     "Douglas Densmore",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "Trumpet",
+			"description" : "A Trumpet testbed comprises a library of genes and promoters, which can be configured into any desired permutation or combination by treating the DNA with a sequence of enzymes called recombinases. Our design algorithm takes a set of DNA parts, and produces a testbed design and enzyme key dictionary, such that the testbed can be configured into any sequence of promoters and genes by treating it with the corresponding enzyme key. This allows us to rewire the genes and switches and study all their combinations. The goal of Trumpet is to aid the user in designing fully reconfigurable genetic circuit plasmids."
+		},
+		{
+			"url" :         "http:\/\/2010.igem.org\/Team:Paris_Liliane_Bettencourt\/Project\/SIP",
+			"category" :    "Various",
+			"team" :        "Paris_Liliane_Bettencourt",
+			"dependency" :  "Sqlite 3",
+			"update" :      "October 2010",
+			"status" :      "Finished",
+			"contact" :     "http:\/\/2010.igem.org\/Team:Paris_Liliane_Bettencourt\/Team",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "SIP Wiki Analyser",
+			"description" : "Analysis of Statistically Improbable Phrases of iGEM wikis"
+		},
+		{
+			"url" :         "http:\/\/2008.igem.org\/Team:Newcastle_University\/Constraints_Repository",
 			"category" :    "Repository",
 			"team" :        "Newcastle_University",
 			"update" :      "10\/29\/2008",
 			"status" :      "not found",
-			"contact" :     "http:\/\/2008.igem.org\/Team:Newcastle_University\/Team, lead developer: Nina Nielsen-Dzumhur",
+			"contact" :     "Nina Nielsen-Dzumhur",
 			"type" :        "Item",
 			"year" :        "2008",
 			"label" :       "Constraints Repository",
-			"description" : "Part of a software collection designed by 2008 Newcastle iGem team. The Constraints Repository stores information about how parts work together, and associated parameters such as binding affinities, POPS, etc., where these are known. This was populated from the literature and by extracting hard-won knowledge from advisors."
+			"description" : "Stores information about how parts work together, and associated parameters such as binding affinities, POPS, etc., where these are known. This was populated from the literature and by extracting hard-won knowledge from advisors. Part of a software collection designed by 2008 Newcastle iGem team."
 		},
 		{
 			"url" :         "http:\/\/2009.igem.org\/Team:Johns_Hopkins-BAG\/Software_Tools",
@@ -32,10 +65,24 @@
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "CloneQC",
-			"description" : "Designed to automate the analysis of  thousands of tracefiles of sequenced DNA. The somewhat complex process  involved in calling whether or not the generated Building Block is an  exact match to the designed Building Block was automated. The program  can successfully identify exact and non-exact matches, and in some cases  where it isn\u2019t sure, it will ask a human to determine the status."
+			"description" : "Automates the analysis of thousands of tracefiles of sequenced DNA. Automatically calls whether or not the generated Building Block is an exact match to the designed Building Block. The program can successfully identify exact and non-exact matches, and in some cases where it isn\u2019t sure, it will ask the operator of the software to determine the status."
 		},
 		{
-			"url" :         "http:\/\/2009.igem.org\/Team:Slovenia\/Software",
+			"url" :         "http:\/\/2010.igem.org\/Team:Imperial_College_London\/Software_Tool",
+			"category" :    "Reference",
+			"team" :        "Imperial_College_London",
+			"dependency" :  "No",
+			"update" :      "October 2010",
+			"status" :      "Finished",
+			"contact" :     "http:\/\/2010.igem.org\/Team:Imperial_College_London\/The_Team",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "Parasight Software Tool",
+			"description" : "Web display of the custom sequence of the entire surface protein construct with sensitivity to different proteases. By changing the cleavage site the system can accept a wide variety of inputs. Presents the user with a sequence designed to create a \"detection model\" sensitive to one of ten pathogen proteases."
+		},
+		{
+			"url" :         "http:\/\/2009.igem.org\/Team:Slovenia\/Software (may contain malware)",
 			"category" :    "Nanotechnology\/Protein structure",
 			"team" :        "Slovenia",
 			"dependency" :  "Not found",
@@ -46,7 +93,39 @@
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "Not found (nanoBricks[pro])",
-			"description" : "Team Slovenia designed a method of constructing structures similar to DNA origami, but made out of polypeptides. In their page, they claim to have designed software to predict the stability of these structures--coils--, but the link to the \"software\" section reads \"...to be added soon\"."
+			"description" : "Constructing structures similar to origami, made out of polypeptides. In their page, they claim to have designed software to predict the stability of these structures--coils--, but the link to the \"software\" section reads \"...to be added soon\"."
+		},
+		{
+			"source" :      "https:\/\/github.com\/haydnKing\/Gibthon",
+			"url" :         "http:\/\/gibthon.org\/",
+			"category" :    "Assembly Planning, Gibson Assembly",
+			"team" :        "Cambridge",
+			"dependency" :  "web",
+			"update" :      "Dec 2011",
+			"status" :      "active",
+			"contact" :     "Haydn King, Bill Collins (bill@gibthon.org)",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "Gibthon Ligation Calculator",
+			"description" : [
+				"A simple tool for calculating reactant concentrations for DNA ligation for Gibson Assembly",
+				"Ligation ratio calculator for Gibson Assembly. Set the volumes and add components to calculate final volumes of the Ligation Mix."
+			]
+		},
+		{
+			"url" :         "http:\/\/2010.igem.org\/Team:Mexico-UNAM-CINVESTAV\/Software",
+			"category" :    "Various",
+			"team" :        "Mexico-UNAM-CINVESTAV",
+			"dependency" :  "Not found",
+			"update" :      "October 2010",
+			"status" :      "Not found, presumed dead",
+			"contact" :     "http:\/\/2010.igem.org\/Team:Mexico-UNAM-CINVESTAV\/Contact",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "BioBricks jTools",
+			"description" : "Utilities to automate biobricks from files"
 		},
 		{
 			"url" :         "http:\/\/2009.igem.org\/Team:Bologna\/Software#2",
@@ -55,23 +134,100 @@
 			"dependency" :  "MatLab",
 			"update" :      "October 2009",
 			"status" :      "Finished",
-			"contact" :     "jflegias@gmail.com or andrea.samore@unibo.it",
+			"contact" :     "jflegias@gmail.com, andrea.samore@unibo.it",
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "VIFluoR (Very Inexpensive Fluorescence Reader)",
-			"description" : "Matlab code (VIFluoR) to estimate, by imaging analysis, the fluorescence emitted by a single bacterium. MatLab required"
+			"description" : "Estimate, by imaging analysis, the fluorescence emitted by a single bacterium."
 		},
 		{
+			"source" :      "http:\/\/code.google.com\/p\/crispr-studio\/",
+			"url" :         "http:\/\/2011.igem.org\/Team:Arizona_State\/Project\/Software",
+			"category" :    "Sequence generation",
+			"team" :        "Arizona_State",
+			"dependency" :  "BLAST+",
+			"update" :      "September 2010",
+			"status" :      "Not found",
+			"contact" :     "http:\/\/2011.igem.org\/Team:Arizona_State\/Lab\/Team",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "CRISPRstudio",
+			"description" : "\"We have developed a tool to assist in the development of synthetic CRISPR systems. Pick spacers from a source sequence, based on homology with the target genome, hairpinning potential, restriction sites, and known PAMs. Output arrays with various formats based on generated spacers. Display and gather CRISPR information using a database cultivated from several sources.CRISPRstudio is provided \"as is\" with no express or implied warranty for accuracy or accessibility.\""
+		},
+		{
+			"url" :         "http:\/\/2010.igem.org\/Team:TU_Delft#page=Education\/game",
+			"category" :    "Game, Educational",
+			"team" :        "TU_Delft",
+			"dependency" :  "No",
+			"update" :      "2010",
+			"status" :      "Video Demo",
+			"contact" :     "Marin Licina, Martijn Rentmeester, Sverre Rabbelier, Thomas Rens, Michel de Ridder",
+			"free" :        "None",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "Pimp Your Bacterium",
+			"description" : "iGEM Educational Game in which the player controls a bacterium that needs the appropriate properties and at the same time has to survive viruses, antibiotics and low oxygen levels. Creating these new properties is done by collecting parts in your action screen. If you have collected enough parts, you can go to the lab to your inventory and assemble the needed BioBricks. Children can learn that adding properties can be done by combining parts of DNA and get to know the factors that play a role in the survival of a microorganisms."
+		},
+		{
+			"source" :      "https:\/\/github.com\/igemsoftware\/ENSPS-Strasbourg_2011",
+			"url" :         "http:\/\/2011.igem.org\/Team:ENSPS-Strasbourg",
+			"category" :    "Modelling",
+			"team" :        "ENSPS-Strasbourg",
+			"dependency" :  "Dolphin Smash",
+			"update" :      "Sept 2011",
+			"status" :      "finished",
+			"contact" :     "Jacques Haeich",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "BrioBricks Models Generator for electronic Simulator (BBMGS)",
+			"description" : "A graphical user interface for designers of synthetic biosystems. Helps in their design process by simulating the system. The midterm objective is to base the software on the database of biological material, fed by other iGEM teams. It will model the studied system in an electronic modeling language and provide simulation results to the user."
+		},
+		{
+			"source" :      "https:\/\/github.com\/haydnKing\/Gibthon",
+			"url" :         "http:\/\/gibthon.org\/",
+			"category" :    "Design, Gibson Assembly",
+			"team" :        "Cambridge",
+			"dependency" :  "web",
+			"update" :      "Dec 2011",
+			"status" :      "active",
+			"contact" :     "Haydn King, Bill Collins (bill@gibthon.org)",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "Gibthon Construct Designer2",
+			"description" : "Facilitates the design of primers to create overlaps in your DNA for Gibson Assembly. It will optimise them for length and melting temperature, and warn you of any potential selfpriming or mispriming."
+		},
+		{
+			"source" :      "https:\/\/github.com\/igemsoftware\/CBNU-KOREA_2011",
+			"url" :         "http:\/\/2011.igem.org\/Team:CBNU-Korea\/Data\/Browser",
+			"category" :    "Genome Design",
+			"team" :        "CBNU-Korea",
+			"dependency" :  "Java SDK, Eclipse",
+			"update" :      "Oct 2011",
+			"status" :      "finished",
+			"contact" :     "http:\/\/2011.igem.org\/Team:CBNU-Korea\/Team",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "Genome Organization Database and Designer (GOD)",
+			"description" : "Design an artificial genome with essential genes in silico."
+		},
+		{
+			"source" :      "http:\/\/2009.igem.org\/Team:Freiburg_software\/Code",
 			"url" :         "http:\/\/2009.igem.org\/Team:Freiburg_software",
-			"category" :    "Collaborative tool",
+			"category" :    "Collaborative tool, sequence alignment, sequence analysis (ORF search and translation, restriction enzyme cut site search, etc.), primer design, BLAST search",
 			"team" :        "Freiburg_software",
+			"dependency" :  "No",
 			"update" :      "November 2010",
 			"status" :      "Finished",
 			"contact" :     "Not available",
+			"free" :        "Yes",
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "SynBioWave",
-			"description" : "Synthetic biological software suite, based on Google's collaboration and communication tool Wave. Made for collaborative research comprising parts design and documentation. Moreover, biologists can record and share the process of creating research data and perform basic tasks using SynBioWave. This gives synthetic biology access to the collaborative and interactive web 2.0."
+			"description" : "Based on Google\'s collaboration and communication tool Wave. Made for collaborative research comprising parts design and documentation. Synthetic biologists can record and share the process of creating research data and perform basic tasks using SynBioWave. This gives synthetic biology access to the collaborative and interactive web 2.0."
 		},
 		{
 			"url" :         "http:\/\/sourceforge.net\/projects\/keplerclotho\/",
@@ -88,6 +244,36 @@
 			"description" : "Development of actors and automated assembly processes for the scientific workflow management system Kepler. Kepler is a multi-university design effort focusing on scientific workflows, and is used by a wide variety of projects in different fields. What the Berkely team did was to integrate Kepler into Clotho, as part of the Clotho-Eugene-Spectacles-Kepler software package"
 		},
 		{
+			"source" :      "https:\/\/github.com\/jkdirac\/igame",
+			"url" :         "http:\/\/2010.igem.org\/Team:USTC_Software\/Features",
+			"category" :    "game, Educational, simulation, modelling",
+			"team" :        "USTC_Software",
+			"dependency" :  "COPASI",
+			"update" :      "Feb 2011",
+			"status" :      "Finished",
+			"contact" :     "Hao Jiang",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "iGaME",
+			"description" : "A game to instruct non-biologists to design and improve biological systems. Players help solve complex designs of biological systems by submitting the assembly of parts and the software discovers and generates the biological model automatically. Leverages the MoDeL language (for more see BBF RFC55: Standard Biological Part Automatic Modeling Database Language (MoDeL)) to generate the model for simulation using COPASI."
+		},
+		{
+			"source" :      "https:\/\/github.com\/igemsoftware\/USTC-Software_2011",
+			"url" :         "http:\/\/2011.igem.org\/Team:USTC-Software",
+			"category" :    "modelling",
+			"team" :        "USTC-Software",
+			"dependency" :  "No",
+			"update" :      "September 2011",
+			"status" :      "Not found",
+			"contact" :     "Hao Jiang",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "Lachesis",
+			"description" : "A system to aid in the design, optimization, and simulation of parts circuits. The Assembly View graphical interface creates models using MoDeL, a rule-based modeling language.  The interface provides utilities to insert components (parts and species) into compartments or plasmids. Finally, the model can be \"solved\", an SBML file is created.."
+		},
+		{
 			"url" :         "http:\/\/2009.igem.org\/Team:Berkeley_Software\/Spectacles",
 			"category" :    "Visualization, sequence design",
 			"team" :        "Berkeley_Software",
@@ -99,7 +285,7 @@
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "Spectacles",
-			"description" : "A visual editing framework for the design of composite biological devices and the assignment of physical samples to functional concepts. In order to design composite devices, Spectacles provides a visual editing environment. Not only does this allow for a complete drag and drop \"schematic\" editor style design experience, but it also checks and enforces Eugene based rules, provides visual cues regarding the design's properties, and is completely integrated with the rest of the Clotho design environment. The latter allows the user to assign actual parts from registries to the functional concept captured by Spectacles."
+			"description" : "A visual editing framework for the design of composite biological devices and the assignment of physical samples to functional concepts. In order to design composite devices, Spectacles provides a visual editing environment. Not only does this allow for a complete drag and drop \"schematic\" editor style design experience, but it also checks and enforces Eugene based rules, provides visual cues regarding the design\'s properties, and is completely integrated with the rest of the Clotho design environment. The latter allows the user to assign actual parts from registries to the functional concept captured by Spectacles."
 		},
 		{
 			"url" :         "http:\/\/2008.igem.org\/Team:BCCS-Bristol\/Modeling-Software",
@@ -111,7 +297,7 @@
 			"type" :        "Item",
 			"year" :        "2008",
 			"label" :       "BSim",
-			"description" : "BSimApp is a graphical interface that enables a user to view simulations. It can be used to help users familiarise themselves with the process of defining simulations, watch small-scale simulations or verify the initial conditions of large-scale simulations. Simulations for: basic chemotaxis, adhesion, recruitment"
+			"description" : "A graphical interface that enables a user to view simulations. It can be used to help users familiarise themselves with the process of defining simulations, watch small-scale simulations, or verify the initial conditions of large-scale simulations. Simulations for: basic chemotaxis, adhesion, recruitment"
 		},
 		{
 			"url" :         "http:\/\/www.cbs.dtu.dk\/services\/PHUSER\/",
@@ -126,24 +312,16 @@
 			"description" : "Offers quick and easy design of PCR optimized primers for USER fusion of custom DNA fragments."
 		},
 		{
-			"label" :       "SBOL-V (not software)",
-			"team" :        "Stanford",
-			"type" :        "Item",
-			"year" :        "2009",
-			"description" : "SBOL-V is a graphical notation system that aims to complement SBOL. Synthetic Biology Open Language Visual (SBOLv) is a graphical notation that supports biological device development. It provides a formal notation for describing the physical composition of basic parts into composite parts during the development of biological devices. It is targeted for use by biological engineers in forward engineering projects. It encourages and supports model-driven engineering.",
-			"category" :    "Language definition"
-		},
-		{
 			"url" :         "http:\/\/genedesign.thruhere.net\/gd\/",
 			"category" :    "DNA design",
 			"team" :        "Johns_Hopkins-BAG",
 			"update" :      "September 2009",
 			"status" :      "Finished",
-			"contact" :     "notadoctor@jhmi.edu",
+			"contact" :     "Sarah Richardson and Pablo Lee",
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "GeneDesign",
-			"description" : "Written by B-A-G Team members Sarah Richardson and Pablo Lee that provides tools for more specific gene or Building Block level design. Features like codon substitutions, silent site removals, restriction site design, and more are available. Most relevant to B-A-G, after the design of a gene or Building Block, tiling oligo order sheets can be automatically generated."
+			"description" : "Aid gene or Building Block level design. For example, codon substitutions, silent site removals, restriction site design, etc. The design of a gene or Building Block, tiling oligo order sheets can be automatically generated."
 		},
 		{
 			"url" :         "http:\/\/django.gibthon.org\/",
@@ -157,106 +335,156 @@
 			"type" :        "Item",
 			"year" :        "2010",
 			"label" :       "Gibthon Beta",
-			"description" : "Helps design primers for Gibson Assembly. \"The more basic of the two tools, this will take as an input the sequences surrounding the join for which you wish to design primers. You can interactively adjust the length of the primers to tune the melting temperature of the DNA and check for secondary structures. The developer is currently focussing on GCD, but will still be supporting Gibthon.\""
+			"description" : "Helps design primers for Gibson Assembly. Takes as an input the sequences surrounding the join for which you wish to design primers. You can interactively adjust the length of the primers to tune the melting temperature of the DNA and check for secondary structures."
+		},
+		{
+			"contact" :     "Sarah Richardson and Pablo Lee",
+			"label" :       "BioStudio",
+			"team" :        "Johns_Hopkins-BAG",
+			"type" :        "Item",
+			"year" :        "2009",
+			"category" :    "DNA design",
+			"description" : "Facilitates many genome creation and editing tasks in collaborative environment on the web. Aids the editor in the design, visualization of the sequence at various levels of detail. For example to view restriction site positions and recombination sites, and the percent content of certain base pairs. Uses a revision control system. Layered on top of an existing generic genome browser called GBROWSE."
 		},
 		{
 			"url" :         "http:\/\/www.clothocad.org\/",
 			"category" :    "Integrated workflow",
-			"team" :        "UC_Berkeley_Tools",
+			"team" :        [
+				"BU_Wellesley_Software",
+				"UC_Berkeley_Tools"
+			],
+			"dependency" :  "no",
 			"update" :      "Feb 2012",
-			"status" :      "Feb 2008",
+			"status" :      [
+				"active",
+				"Feb 2008"
+			],
 			"contact" :     "Douglas Densmore",
+			"free" :        "yes",
 			"type" :        "Item",
-			"year" :        "2008",
+			"year" :        [
+				"2011",
+				"2008"
+			],
 			"label" :       "Clotho",
-			"description" : "Clotho is for engineering synthetic biological systems and managing the data which is used to create them. It also provides a mechanism to begin the process of creating standardized data, algorithms, and methodologies for synthetic biology"
+			"description" : [
+				"Clotho is a software platform for synthetic biologists. Clotho is a nexus. Clotho is the foundation for the automated future of biological engineering. All of these feats are accomplished without Clotho doing anything itself. At its core, Clotho is a data model and a plugin infrastructure. In other words, Clotho gives a vocabulary to describe biological objects and a way for many different types of tools to interact with these biological objects. By itself, Clotho is not a tool. However, the plugin infrastructure allows Clotho to be a rallying points for all sorts of different tools, each fulfilling the exact need of the user.",
+				"Engineer synthetic biological systems and manage the data which is used to create them. A mechanism to begin the process of creating standardized data, algorithms, and methodologies for synthetic biology."
+			]
 		},
 		{
-			"label" :       "Biostudio",
-			"team" :        "Johns_Hopkins-BAG",
+			"source" :      "http:\/\/github.com\/douglas-watson\/muigi",
+			"url" :         "http:\/\/2011.igem.org\/Team:EPF-Lausanne\/Tools\/Microfluidics\/Tamagotchip",
+			"category" :    "Game, microfluidics",
+			"team" :        "EPF-Lausanne",
+			"dependency" :  "Microfludics hardware",
+			"update" :      "Sept 2011",
+			"status" :      "finished",
+			"contact" :     "Douglas Watson",
+			"free" :        "yes",
 			"type" :        "Item",
-			"year" :        "2009",
-			"description" : "Web application developed by B-A-G Team members Sarah Richardson and Pablo Lee layered on top of an existing generic genome browser called GBROWSE. BioStudio allows collaborative creation and editing of genome-sized DNA sequences, using revision control systems and most importantly, a graphical user interface, which facilitates many genome editing tasks. It provides various useful tools to aid the editor in the design, like ways to visualize the sequence at various levels of detail, or to visualize restriction site positions and recombination sites, or the percent content of certain base pairs, and so on.",
-			"category" :    "DNA design"
+			"year" :        "2011",
+			"label" :       "Tamagotchip Game\/ Muigi the Microplumber",
+			"description" : "The tamagotchip live online microfluidics game,  a web-controlled microfluidics setup, where users can view the chip live and control the valves from a web browser. From a web browser, control the setup located in our lab in Lausanne."
 		},
 		{
-			"url" :         "http:\/\/2008.igem.org\/Team:Lethbridge_CCS\/Project",
-			"category" :    "Protocol",
-			"team" :        "Lethbridge_CCS",
-			"update" :      "30 October 2008",
-			"status" :      "Finished",
-			"contact" :     "http:\/\/2008.igem.org\/Team:Lethbridge_CCS\/Team, contact data not found",
-			"type" :        "Item",
-			"year" :        "2008",
-			"label" :       "Not a software, but a proposed protocol.",
-			"description" : "Now that there is a standard definition of  BioBrick, this is a ligase-independent cloning protocol (based on the technique of Aslanidis & de Jong (1990)), proposed as a standard method for BioBrick preparation."
-		},
-		{
-			"url" :         "http:\/\/synbioss.org",
-			"category" :    "Integrated workflows",
-			"team" :        "Minnesota",
-			"update" :      "Apr 2011",
-			"status" :      "recent",
-			"contact" :     "Yiannis Kaznessis",
-			"type" :        "Item",
-			"year" :        "2008",
-			"label" :       "SynBioSS",
-			"description" : "The Synthetic Biology Software Suite (SynBioSS) is a software suite for the generation, storing, retrieval and quantitative simulation of synthetic biological networks. SynBioSS facilitates computational synthetic biology and consists of three independent components: the Desktop Simulator (DS), the Wiki, and the Designer."
-		},
-		{
-			"url" :         "http:\/\/2010.igem.org\/Team:Cambridge\/Tools\/GenBank",
-			"category" :    "Repository",
+			"source" :      "https:\/\/github.com\/haydnKing\/Gibthon",
+			"url" :         "http:\/\/gibthon.org\/",
+			"category" :    "Design, Gibson Assembly",
 			"team" :        "Cambridge",
-			"dependency" :  "No",
-			"update" :      "Not found",
-			"status" :      "Finished",
-			"contact" :     "http:\/\/2010.igem.org\/Team:Cambridge\/TheTeam",
-			"free" :        "Yes",
-			"type" :        "Item",
-			"year" :        "2010",
-			"label" :       "BioBrick \u2192 GenBank",
-			"description" : "The team \"created this tool to allow any BioBrick to be downloaded with  annotations in GenBank format. This allows import into many DNA editing  programs, e.g. ApE. Note: You can now access the GenBank formats directly from the Parts Registry by going to Tools > GenBank format.\""
-		},
-		{
-			"url" :         "http:\/\/2007.igem.org\/Imperial\/Dry_Lab\/Software",
-			"category" :    "various",
-			"team" :        "Imperial",
-			"update" :      "10\/27\/2007",
+			"dependency" :  "web",
+			"update" :      "Dec 2011",
 			"status" :      "active",
-			"contact" :     "?",
+			"contact" :     "Haydn King, Bill Collins (bill@gibthon.org)",
+			"free" :        "yes",
 			"type" :        "Item",
-			"year" :        "2007",
-			"label" :       "several routines in MATLAB",
-			"description" : "several routines in MATLAB"
+			"year" :        "2011",
+			"label" :       "Gibthon",
+			"description" : "A suite of web-based tools to aid in the design and manufacture of synthetic parts and devices for biological systems."
 		},
 		{
-			"url" :         "genomicon.ca (software not found)",
-			"category" :    "Educational",
+			"source" :      "https:\/\/github.com\/stjahns\/Alberta-IGEM",
+			"url" :         "http:\/\/www.genomikon.ca\/",
+			"category" :    "Educational, e-labnotebook, lab manual",
 			"team" :        "Alberta",
 			"dependency" :  "No",
 			"update" :      "Not found",
-			"status" :      "Active",
+			"status" :      "Live app not available",
 			"contact" :     "http:\/\/2010.igem.org\/Team:Alberta\/team",
 			"free" :        "yes",
 			"type" :        "Item",
 			"year" :        "2010",
 			"label" :       "GENOMIKON",
-			"description" : "Building DNA is too hard. It has to be cheaper, faster, and easier, so that everyone can do it. So... we've created an inexpensive, self-contained educational kit called GENOMIKON - everything you need to build, test and operate genetic circuits and metabolic pathways. It comes with an online lab manual, notebook, and experiment software. It can be used by professionals as well."
+			"description" : "An interactive lab manual which walks a student through the laboratory experiment. The lab notebook component empowers students to create their own experiments and share them online. It can be used by professionals as well. The web app compliments the GENOMIKON educational kit- everything needed to build, test and operate genetic circuits and metabolic pathways."
 		},
 		{
-			"url" :         "http:\/\/2008.igem.org\/Team:Newcastle_University\/Parts_Repository, could not find download link (supposed to be here: http:\/\/research.ncl.ac.uk\/synthetic_biology\/downloads.html)",
+			"source" :      "http:\/\/2007.igem.org\/Image:ID_simulation.zip",
+			"url" :         "http:\/\/2007.igem.org\/Imperial\/Dry_Lab\/Software",
+			"category" :    "various",
+			"team" :        "Imperial",
+			"update" :      "10\/27\/2007",
+			"status" :      "active",
+			"contact" :     "Richard Kitney, Paul Freemont",
+			"year" :        "2007",
+			"type" :        "Item",
+			"label" :       "several routines in MATLAB",
+			"description" : "Several routines in MATLAB"
+		},
+		{
+			"source" :      "http:\/\/sourceforge.net\/p\/partsrobot\/svn\/36\/tree\/",
+			"url" :         "http:\/\/sourceforge.net\/p\/partsrobot\/home\/Home\/",
+			"category" :    "part submission, part documentation",
+			"team" :        "Washington",
+			"dependency" :  "no",
+			"update" :      "Oct 2010",
+			"status" :      "finished",
+			"contact" :     "Jeff Johnson <jefdaj@gmail.com>",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "PartsRobot",
+			"description" : "Helps iGEM teams and other researchers submit spreadsheets of standard biological parts to the Parts Registry at MIT. The current version has been tested by the Washington 2010 team, but we\'d love to hear your experience too! If it works we\'ll feel good about ourselves, and if not we\'ll try to fix it."
+		},
+		{
+			"source" :      "http:\/\/igem.uwaterloo.ca\/biomortar-svn",
+			"url" :         "http:\/\/igem.uwaterloo.ca\/BioMortar",
+			"category" :    "Repository, laboratory protocols",
+			"team" :        "Waterloo",
+			"dependency" :  "no",
+			"update" :      "2008",
+			"contact" :     "Andre Masella",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2008",
+			"label" :       "BioMortar - Freezer Management",
+			"description" : "Freezer management of BioBricks. It understands standard assembly and can gather information from the Parts Registry. geared to iGEM and Standard Assembly so it keeps track of BioBrick part numbers and also knows that some parts are composite parts made of other parts. The advantage of this is that it can construct sequences for composite parts automatically. Although Standard Assembly makes it easy to ligate parts, it is fairly easy to reverse the enzymes accidentally. One of the goals of BioMortar was to generate prepared protocols with the enzymes filled in to prevent such errors. It also could do the math to calculate the quantities of solutions needed."
+		},
+		{
+			"source" :      "http:\/\/sourceforge.net\/projects\/ustcabcd\/",
+			"url" :         "http:\/\/2009.igem.org\/Team:USTC_Software",
+			"category" :    "biological network design",
+			"team" :        "USTC_Software",
+			"contact" :     "dbche@mail.ustc.edu.cn",
+			"type" :        "Item",
+			"year" :        "2009",
+			"label" :       "ABCD - Automatic Biological Circuit Design",
+			"description" : "Automatically design synthetic complex biological networks with desired functions defined as dynamical behavior and input-output properties. Uses SBML."
+		},
+		{
+			"url" :         "http:\/\/2008.igem.org\/Team:Newcastle_University\/Parts_Repository",
 			"category" :    "Repository",
 			"team" :        "Newcastle_University",
 			"update" :      "10\/29\/2008",
 			"status" :      "not found",
-			"contact" :     "http:\/\/2008.igem.org\/Team:Newcastle_University\/Team, lead developer, Megan Aylward",
+			"contact" :     "Megan Aylward",
 			"type" :        "Item",
 			"year" :        "2008",
 			"label" :       "Parts Repository",
-			"description" : "Part of a software collection designed by 2008 Newcastle iGem team. The Parts Repository Modulestores information from the literature and various databases about biological parts such as promoters, ribosomal binding sites and protein coding regions. As well as biological information, this includes fragments of CellML that facilitate incorporation of the part into a larger simulation."
+			"description" : "Stores information from the literature and various databases about biological parts such as promoters, ribosomal binding sites and protein coding regions. As well as biological information, this includes fragments of CellML that facilitate incorporation of the part into a larger simulation. Part of a software collection designed by 2008 Newcastle iGem team."
 		},
 		{
-			"url" :         "http:\/\/2009.igem.org\/Team:Calgary\/Modelling\/MC\/Intro, download not found",
+			"source" :      "download not found",
+			"url" :         "http:\/\/2009.igem.org\/Team:Calgary\/Modelling\/MC\/Intro",
 			"category" :    "Bacteria simulation",
 			"team" :        "Calgary",
 			"dependency" :  "not found",
@@ -267,28 +495,75 @@
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "MCMGem",
-			"description" : "This model allows us to observe the behavior of each individual cell as well as the emergent properties of the whole population. It also enables us to manipulate factors involved in the simulation to understand their effects in individual as well as colony behaviors. Based on the Membrane Computing technique"
+			"description" : "Observe the behavior of each individual cell as well as the emergent properties of the whole population. It also enables us to manipulate factors involved in the simulation to understand their effects in individual as well as colony behaviors. Based on the Membrane Computing technique"
+		},
+		{
+			"source" :      "None",
+			"url" :         "http:\/\/2010.igem.org\/Team:UIUC-Illinois-Software",
+			"category" :    "DNA design",
+			"team" :        "UIUC-Illinois-Software",
+			"dependency" :  "Web",
+			"update" :      "October 2010",
+			"status" :      "Dead",
+			"contact" :     "Nathan Price, Kaustubh Bhalerao",
+			"free" :        "None",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "BioMORTAR",
+			"description" : "Design a plasmid in-silico for the user-specified host bacteria as well as model the growth of the designed cell. Three Part Genetic Design Suite composed of IMPtools 2.0, Plasmid Designer, and COBRA Cell Modeling"
 		},
 		{
 			"label" :       "SynBioSS Designer",
 			"team" :        "Minnesota",
 			"type" :        "Item",
 			"year" :        "2009",
-			"description" : "See row 53. The 2009 Minnesota team's project was to overhaul the SynBioSS UI and add new functionality."
+			"description" : "Overhaul of the SynBioSS UI and added new functionality."
 		},
 		{
-			"url" :         "http:\/\/2009.igem.org\/Team:Valencia\/Simulations",
-			"category" :    "Cell Simulation",
-			"team" :        "Valencia",
-			"dependency" :  "MATLAB",
-			"update" :      "August, 2009",
-			"status" :      "Finished",
-			"contact" :     "http:\/\/2009.igem.org\/Team:Valencia\/TeamVal",
-			"free" :        "Yes",
+			"url" :         "http:\/\/2009.igem.org\/Team:Paris\/Tool_introduction#top",
+			"category" :    "Repository, LIMS",
+			"team" :        "Paris",
+			"dependency" :  "-",
+			"update" :      "October, 2009",
+			"status" :      "Not started",
+			"contact" :     "http:\/\/2009.igem.org\/Team:Paris\/Contact#top",
+			"free" :        "-",
 			"type" :        "Item",
 			"year" :        "2009",
-			"label" :       "\"Modelling Interface\"",
-			"description" : "A MATLAB-based simulation that predicts how intracellular calcium concentration changes through time in cardiomyocites and neurons, according to a set of given parameters."
+			"label" :       "iPhone Tool",
+			"description" : "Management of samples, laboratory users, instruments, standards and other laboratory functions such as invoicing, plate management, and workflow automation.) and database surfer iPhone app"
+		},
+		{
+			"url" :         "http:\/\/2011.igem.org\/Team:BU_Wellesley_Software\/Puppetshow",
+			"category" :    "Laboratory automation",
+			"team" :        "BU_Wellesley_Software",
+			"dependency" :  "Windows, Microsoft Surface",
+			"update" :      "Sept 2011",
+			"status" :      "finished",
+			"contact" :     "Douglas Densmore",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "Puppetshow",
+			"description" : [
+				"Laboratory protocols often require careful and precise execution of numerous procedures to achieve desired results. However, slight inaccuracies and miscalculations attributable to human-error continually arise and often lead to invalid conclusions. For this reason, we have developed an accurate workflow that executes biological protocols in a more systematic manner. The solution we propose is the Puppeteer Biological Protocol Automation Suite. Our suite centers on the execution of Puppeteer, a high-level protocol specification language used to programmatically describe biological protocols",
+				"it is executed on a liquid-handling robot with minimal user intervention. PuppetShow allows users to create protocols locally, but will eventually incorporate a \u201CProtocol Repository\u201D that will retain version-controlled instances of uploaded protocols. This feature will promote all forms of collaboration within the synthetic biology community, with a predominant focus on inter-laboratory protocol sharing."
+			]
+		},
+		{
+			"source" :      "http:\/\/synbiowave.sourceforge.net\/",
+			"url" :         "http:\/\/2010.igem.org\/Team:Freiburg_Software",
+			"category" :    "Collaboration, Information Sharing, Integrated Framework",
+			"team" :        "Freiburg_Software",
+			"dependency" :  "Google Wave",
+			"update" :      "Google Wave closed",
+			"status" :      "Finished",
+			"contact" :     "Kristian M\u00FCller",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "SynBioWave 2.0",
+			"description" : "Research collaboration by real-time sharing of parts, design and documentation. Moreover, biologists can record and share the process of creating research data. Improved user friendliness, separated the input and output from the sequence database operations by creating a linked wave for data storage. New add-ons that perform specific external tasks and feed back into the main program: 1. The \u201Cblueprint-robot\u201D, a framework easing new robot development. 2. Adding new functionality by creating add-on robots that perform tasks such as BLAST-searches, ORF-finding, translation, sequence alignments and restriction site mapping."
 		},
 		{
 			"url" :         "http:\/\/2009.igem.org\/Team:CBNU-Korea\/Project",
@@ -300,14 +575,18 @@
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "Essarker: An Essential Remarker for a Minimal for Synthetic Genome",
-			"description" : "The goal of Essarker is to help users design a minimal genome synthesized through the fundamental frame comprising the essential genes of replication. Essarker is a standalone software to manage and retrieve required sequences of genomes, and explore the essential gene order and direction and the related orthologous genes. It also identifies and visualizes the positions and orientations of genes. In addition, it shows optimal ordering of essential genes and orthologs by statistical analysis."
+			"description" : [
+				"Design a minimal genome synthesized through the fundamental frame comprising the essential genes of replication. A standalone software tool to manage and retrieve required sequences of genomes",
+				"explore the essential gene order and direction",
+				"and the related orthologous genes. It also identifies and visualizes the positions and orientations of genes. In addition, it shows optimal ordering of essential genes and orthologs by statistical analysis."
+			]
 		},
 		{
 			"url" :         "http:\/\/setob.blogspot.com\/",
 			"category" :    "Repository",
 			"team" :        "University_of_Washington",
 			"update" :      "2008",
-			"status" :      "Incomplete, unpublished, and apparently inactive",
+			"status" :      "incomplete",
 			"contact" :     "Paramjit Singh Sandhu, Tyler Casey",
 			"type" :        "Item",
 			"year" :        "2008",
@@ -329,7 +608,7 @@
 			"type" :        "Item",
 			"year" :        "2010",
 			"label" :       "E.glometer",
-			"description" : "The team \"designed and built a low cost electronic system for measuring light output, this is useful for reporter assays.\" Instructions on how to build and use the E.glometer are provided, along with the Arduino source code."
+			"description" : "A low cost electronic system for measuring light output, this is useful for reporter assays. Instructions on how to build and use the E.glometer are provided, along with the Arduino source code."
 		},
 		{
 			"url" :         "http:\/\/2008.igem.org\/Team:iHKU\/software#imagej",
@@ -341,7 +620,34 @@
 			"type" :        "Item",
 			"year" :        "2008",
 			"label" :       "Image",
-			"description" : "A simple Java program is used to automate the picture capturing process."
+			"description" : "Used to automate the picture capturing process. A simple Java program."
+		},
+		{
+			"url" :         "http:\/\/www.clothocad.org\/",
+			"category" :    "Integrated workflows",
+			"team" :        "Berkeley",
+			"dependency" :  "No",
+			"status" :      "Active",
+			"contact" :     "Douglas Densmore",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "Clotho 2.0",
+			"description" : "Added the \"apps\" functionality to Clotho"
+		},
+		{
+			"url" :         "http:\/\/2010.igem.org\/Team:Cambridge\/Tools\/GenBank",
+			"category" :    "Repository",
+			"team" :        "Cambridge",
+			"dependency" :  "No",
+			"update" :      "Not found",
+			"status" :      "Finished",
+			"contact" :     "http:\/\/2010.igem.org\/Team:Cambridge\/TheTeam",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "BioBrick > GenBank",
+			"description" : "Allows any BioBrick to be downloaded with annotations in GenBank format. This allows import into many DNA editing programs, e.g. ApE. You can now access the BioBrick > GenBank converter directly from the Parts Registry by going to Tools > GenBank format."
 		},
 		{
 			"url" :         "http:\/\/2008.igem.org\/Team:TUDelft\/Temperature_software",
@@ -354,14 +660,28 @@
 			"type" :        "Item",
 			"year" :        "2008",
 			"label" :       "Stability Profile Plotter",
-			"description" : "The Stability Profile Plotter is a software tool that plots the free energy data that RNAeval provides as result. A template Standard Vector Graphic (svg) file, containing the grid, must be provided to the tool, which will then add the plot to this grid. Automatic production of a grid would be a nice improvement of this tool."
+			"description" : "Plots the free energy data that RNAeval provides as result. A template Standard Vector Graphic (svg) file, containing the grid, must be provided to the tool, which will then add the plot to this grid. Automatic production of a grid would be a nice improvement of this tool."
+		},
+		{
+			"url" :         "http:\/\/2010.igem.org\/Team:METU_Turkey_Software",
+			"category" :    "Pathway generation, database search",
+			"team" :        "METU_Turkey_Software",
+			"dependency" :  "No",
+			"update" :      "October 2010",
+			"status" :      "Not found, presumed dead",
+			"contact" :     "http:\/\/2010.igem.org\/Team:METU_Turkey_Software#team",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "BioGuide",
+			"description" : "Searches for biobricks in the standard registry and produces a pathway based on a search query of input and output proteins."
 		},
 		{
 			"url" :         "http:\/\/2008.igem.org\/Chemotaxis_Modeling",
 			"category" :    "Simulations of cell behavior",
 			"team" :        "Tsinghua",
 			"update" :      "2008",
-			"status" :      "code no longer aviable",
+			"status" :      "not available",
 			"contact" :     "?",
 			"type" :        "Item",
 			"year" :        "2008",
@@ -369,7 +689,7 @@
 			"description" : "Simulate the motion of a single bacterium"
 		},
 		{
-			"url" :         "http:\/\/2008.igem.org\/Team:Calgary_Software\/Notebook and http:\/\/2008.igem.org\/Team:Calgary_Software\/Project",
+			"url" :         "http:\/\/2008.igem.org\/Team:Calgary_Software\/Project",
 			"category" :    "Circuit design and simulation",
 			"team" :        "Calgary_Software",
 			"update" :      "2008",
@@ -378,7 +698,7 @@
 			"type" :        "Item",
 			"year" :        "2008",
 			"label" :       "EvoGEM",
-			"description" : "A software program that uses the registry of genetic parts provided by the iGEM competition. In this design, we used evolutionary and genetic strategies, which are useful modeling methods, especially when coupled with agent-based designs."
+			"description" : "Uses the registry of genetic parts provided by the iGEM competition. Evolutionary and genetic strategies, which are useful modeling methods, especially when coupled with agent-based designs."
 		},
 		{
 			"url" :         "http:\/\/2008.igem.org\/Team:Edinburgh\/Software and http:\/\/www.ehmn.bioinformatics.ed.ac.uk\/igem\/",
@@ -390,24 +710,89 @@
 			"type" :        "Item",
 			"year" :        "2008",
 			"label" :       "MGEC (Modeling Genetically Engineered Circuits)",
-			"description" : "For the inexperienced user. Through MGEC, one only needs to tell which genes and promoters are assembled in order to form their gene circuit - a preliminary model in SBML format will be automatically generated for the circuit. This model can then be analyzed in other software such as Copasi for further improvement."
+			"description" : "Automatically generates a preliminary model in SBML format for the gene circuit based on promoters and genes assembled in order to form the circuit. This model can then be analyzed in other software such as Copasi for further improvement. For the inexperienced user."
 		},
 		{
-			"url" :         "http:\/\/2009.igem.org\/Team:Washington-Software\/Downloads",
-			"category" :    [
-				"Hardware driver",
-				"operation, construction instructions."
-			],
-			"team" :        "Washington-Software",
-			"dependency" :  "ROBOTC",
-			"update" :      "October 2009 (sourceforge files not found)",
-			"status" :      "not found, presumed inactive",
-			"contact" :     "http:\/\/2009.igem.org\/Team:Washington-Software\/Team",
+			"source" :      "not available",
+			"url" :         "http:\/\/2011.igem.org\/Team:Dundee\/Software",
+			"category" :    "DNA sequence Design",
+			"team" :        "Dundee",
+			"dependency" :  "Android, iOS",
+			"update" :      "Oct 2011",
+			"status" :      "finished",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "The Gene Slicer",
+			"description" : "Helps restriction mapping of nucleotide sequences and to search a sequence for a specific enzyme and can also return a list of enzymes not present in the sequence."
+		},
+		{
+			"url" :         "http:\/\/2011.igem.org\/Team:BU_Wellesley_Software\/eLabNotebook",
+			"category" :    "Laboratory \/ LIMS",
+			"team" :        "BU_Wellesley_Software",
+			"dependency" :  "iOS",
+			"update" :      "Sept 2011",
+			"status" :      "design",
+			"contact" :     "Douglas Densmore",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "eLabNotebook",
+			"description" : "An electronic lab notebook that facilitates collaborative, effective, and safe assembly of biological systems. The eLabNotebook allows users to: 1. Capture multimodal data inside and outside the lab with minimal effort 2. Follow a protocol in the lab while modifying and annotating steps as needed 3. Access a wide variety of digital resources 4. Get an overview of current activity and progress 5.share physical and digital resources in real-time"
+		},
+		{
+			"url" :         "http:\/\/synbioss.org",
+			"category" :    "Integrated workflows",
+			"team" :        "Minnesota",
+			"update" :      "Apr 2011",
+			"status" :      "recent",
+			"contact" :     "Yiannis Kaznessis",
+			"type" :        "Item",
+			"year" :        "2008",
+			"label" :       "SynBioSS - Synthetic Biology Software Suite",
+			"description" : "Generate, store, retrieve and quantitatively simulate synthetic biological networks. Facilitates computational synthetic biology and consists of three independent components: the Desktop Simulator (DS), the Wiki, and the Designer."
+		},
+		{
+			"url" :         "http:\/\/2011.igem.org\/Team:BU_Wellesley_Software\/OptimusPrimer",
+			"category" :    "Primer Design",
+			"team" :        "BU_Wellesley_Software",
+			"dependency" :  "Windows, Microsoft Surface",
+			"update" :      "Sept 2011",
+			"status" :      "finished",
+			"contact" :     "Douglas Densmore",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "Optimus Primer",
+			"description" : "Allows users to create a primer design from a selected gene. Users can then can BLAST designs and run tests based on alignment and Gibb\'s free energy. Both applications make use of the same algorithms and allow saving as BioBricks. It is designed for integration with Clotho and allows users to save designs as BioBricks. Users can select a number of bases and run tests to determine the sustainability of their designs."
+		},
+		{
+			"source" :      "http:\/\/tinkercellextra.svn.sourceforge.net\/viewvc\/tinkercellextra\/",
+			"url" :         "http:\/\/www.tinkercell.com\/plugins\/wikidust",
+			"category" :    "network design, part documentation",
+			"team" :        "Washington",
+			"dependency" :  "TinkerCell",
+			"update" :      "May 2012",
+			"status" :      "yes",
+			"contact" :     "Jeff Johnson <jefdaj@gmail.com>",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "WikiDust",
+			"description" : "Uses the Standard Biological Parts knowledgebase (SBPkb) to download information about publicly available DNA components (parts) into TinkerCell. This makes it fast and easy to diagram genetic regulatory networks that include common promoters, coding sequences, etc. Second, WikiDust creates and publishes imagemaps based on TinkerCell diagrams. Parts for which a URL is available in TinkerCell are clickable in the final image. This streamlines research because detailed, up-to-date information about each part in the network is just a click away."
+		},
+		{
+			"url" :         "http:\/\/2009.igem.org\/Team:Valencia\/Simulations",
+			"category" :    "Cell Simulation",
+			"team" :        "Valencia",
+			"dependency" :  "MATLAB",
+			"update" :      "August, 2009",
+			"status" :      "Finished",
+			"contact" :     "http:\/\/2009.igem.org\/Team:Valencia\/TeamVal",
 			"free" :        "Yes",
 			"type" :        "Item",
 			"year" :        "2009",
-			"label" :       "BioBrick-A-Bot Version 1.0",
-			"description" : "Source codes for the drivers that operate the BioBrick-A-Bot built by team Washington in 2009, intended as a cheap alternative to Commercial Liquid Handling Systems, which can be really expensive. The robot was built using Lego bricks, and is designed to be modular in design, allowing for user-designed parts and added functionality. The source code needs to be read using ROBOTC firmware."
+			"label" :       "Modelling Interface",
+			"description" : "Simulation that predicts how intracellular calcium concentration changes through time in cardiomyocites and neurons, according to a set of given parameters."
 		},
 		{
 			"url" :         "http:\/\/gcat.davidson.edu\/IGEM06\/oligo.html",
@@ -415,44 +800,26 @@
 			"team" :        "Davidson_Missouri_W",
 			"update" :      "7\/10\/2008",
 			"status" :      "active",
-			"contact" :     "Lance Harden (laharden[at]davidson[dot]edu), A. Malcolm Campbell (macampbell[at]davidson[dot]edu),Laurie J. Heyer (laheyer[at]davidson[dot]edu)",
+			"contact" :     "Lance Harden, A. Malcolm Campbell, Laurie J. Heyer",
 			"type" :        "Item",
 			"year" :        "2007",
 			"label" :       "Do-It-Yourself Gene Assembly",
 			"description" : "Gene Synthesis Optimization Program"
 		},
 		{
-			"url" :         "http:\/\/baderlab.bme.jhu.edu:8888\/",
-			"category" :    "Project management",
-			"team" :        "Johns_Hopkins-BAG",
-			"update" :      "?",
-			"status" :      "Finished",
-			"contact" :     "??",
+			"source" :      "no",
+			"url" :         "http:\/\/2009.igem.org\/Team:Alberta\/Project\/Automation",
+			"category" :    "Robotics",
+			"team" :        "Alberta",
+			"dependency" :  "nxtOSEK, GNUARM",
+			"update" :      "2008",
+			"status" :      "not available",
+			"contact" :     "Chris Backhouse, Robert Campbell, Linda Reha-Krantz, Tracy Raivio, Jon Dennis",
+			"free" :        "upon request",
 			"type" :        "Item",
 			"year" :        "2009",
-			"label" :       "Moodle",
-			"description" : "Open source course management system. It was modified to function as an online lab notebook for all B-A-G students to keep track of voluminous data and monitor progress of Building Block synthesis. Things like gel images and progress reports on the Building Blocks were stored in the MOODLE, along with various resources like protocols, lectures, and articles."
-		},
-		{
-			"url" :         "http:\/\/2009.igem.org\/Team:Paris\/Tool_introduction#top",
-			"category" :    "Repository, LIMS",
-			"team" :        "Paris",
-			"dependency" :  "-",
-			"update" :      "October, 2009",
-			"status" :      "Unstarted, presumed inactive",
-			"contact" :     "http:\/\/2009.igem.org\/Team:Paris\/Contact#top",
-			"free" :        "-",
-			"type" :        "Item",
-			"year" :        "2009",
-			"label" :       "\"iPhone Tool\"",
-			"description" : "The Paris 2009 team wanted to create a Laboratory Information Management System (LIMS) (is a software that is used in the laboratory for the management of samples, laboratory users, instruments, standards and other laboratory functions such as invoicing, plate management, and workflow automation.) and database surfer iPhone app, but ran out of time."
-		},
-		{
-			"label" :       "See row 66",
-			"team" :        "Berkeley",
-			"type" :        "Item",
-			"year" :        "2010",
-			"description" : "The 2010 Berkley team reworked Clotho, and added the \"apps\" functionality. It's all available as the latest clotho download."
+			"label" :       "BioBytes Assembly System",
+			"description" : "Drive a custom-built robot for assembly"
 		},
 		{
 			"url" :         "http:\/\/2009.igem.org\/Team:Bologna\/Software",
@@ -461,14 +828,14 @@
 			"dependency" :  "MatLab",
 			"update" :      "October 2009",
 			"status" :      "Finished",
-			"contact" :     "jflegias@gmail.com or andrea.samore@unibo.it",
+			"contact" :     "jflegias@gmail.com, andrea.samore@unibo.it",
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "BASER (Best Sequence Research by Andrea and Elisa)",
 			"description" : [
-				"developed to design synthetic DNA sequences whose transcribed RNAs: a) feature maximal free energy in the secondary structure (i.e. reducing the probability of its intra-molecular annealing)",
+				"Design synthetic DNA sequences whose transcribed RNAs: a) feature maximal free energy in the secondary structure (i.e. reducing the probability of its intra-molecular annealing)",
 				"b) have minimal unwanted interactions with genomic mRNA",
-				"c) present a minimal probability of partial\/shifted hybridization with complementary strands. These specifications are required for the proper engineering of the TRANS and CIS complementary sequences, whose functions are described in the T-REX device. MatLab required."
+				"c) present a minimal probability of partial\/shifted hybridization with complementary strands. These specifications are required for the proper engineering of the TRANS and CIS complementary sequences, whose functions are described in the T-REX device."
 			]
 		},
 		{
@@ -481,43 +848,118 @@
 			"type" :        "Item",
 			"year" :        "2007",
 			"label" :       "Gene Splitting",
-			"description" : "This page is designed to tell you what 4 primers will be used to split a gene such that hixC can be inserted within the gene's coding sequence"
+			"description" : "Designed to tell you what 4 primers will be used to split a gene, such that hixC can be inserted within the gene\'s coding sequence"
 		},
 		{
-			"url" :         "http:\/\/2007.igem.org\/Image:Igem_code.zip and http:\/\/2007.igem.org\/Calgary\/software",
+			"source" :      "http:\/\/sourceforge.net\/projects\/igemzjuchina\/files\/Bach_source.rar\/download",
+			"url" :         "http:\/\/2010.igem.org\/Team:ZJU-China\/Software",
+			"category" :    "Sequence optimization",
+			"team" :        "ZJU-China",
+			"dependency" :  "No",
+			"update" :      "September 2010",
+			"status" :      "Not found",
+			"contact" :     "wendyhu001@gmail.com",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "Bach gene composer",
+			"description" : "\"Bach is a gene composer software that optimizes coding sequences and calculates corresponding RiPS to illustrate their translation rates. In sequence optimization, Bach incorporates 4 distinct approaches from which users can freely choose: SYNONYMOUS SUBSTITUTION, SLOW, FAST and MATCH. In the last section of GET RIPS, users are provided with a quantitative view of the translational behavior of the input coding sequence and the four sequences produced by the four methods as well.\""
+		},
+		{
+			"source" :      "Not available",
+			"url" :         "http:\/\/2011.igem.org\/Team:Warsaw\/Software",
+			"category" :    "Various",
+			"team" :        "Warsaw",
+			"dependency" :  "Eclipse, RBSCalculator, Nupack, ViennaRNA,",
+			"update" :      "September 2011",
+			"status" :      "Inactive",
+			"contact" :     "http:\/\/2011.igem.org\/Team:Warsaw\/Team",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "ExpressionAdaptorsGenerator",
+			"description" : "The Warsaw team developed software to generate and analyze \"Expression Adaptors\", a type of synthetic biology part that they created to deal with the variable expressibility and stochastic nature of RBS."
+		},
+		{
+			"url" :         "http:\/\/2010.igem.org\/Team:ETHZ_Basel\/Achievements\/Matlab_Toolbox",
+			"category" :    "Matlab algorithms, model design",
+			"team" :        "ETHZ_Basel",
+			"dependency" :  "Matlab, Simulink",
+			"update" :      "October 2010",
+			"status" :      "Finished",
+			"contact" :     "http:\/\/2010.igem.org\/Team:ETHZ_Basel\/Team",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "Lemming Toolbox",
+			"description" : "Bundle of Matlab algorithms useful for biology. Complex models, as well as novel visualization, user input and microscope control approaches, as well as a modular graphical user interface based on Simulink, to aid in design of models of any nature."
+		},
+		{
+			"source" :      "not available",
+			"url" :         "http:\/\/2011.igem.org\/Team:Dundee\/Software",
+			"category" :    "DNA sequence Design",
+			"team" :        "Dundee",
+			"dependency" :  "Android, iOS",
+			"update" :      "Oct 2011",
+			"status" :      "finished",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "The Lazy Scientist",
+			"description" : "A translation tool aimed to assist synthetic biologists. The app has a number of functions including DNA to amino acid translation, back translation, reverse, complement and reverse complement. The app also contains a genetic codon lookup table allowing all corresponding codons for an amino acid to be looked up."
+		},
+		{
+			"source" :      "http:\/\/2007.igem.org\/Image:Igem_code.zip",
+			"url" :         "http:\/\/2007.igem.org\/Calgary\/software",
 			"category" :    "Printer controle",
 			"team" :        "Calgary",
 			"update" :      "October 2007",
 			"status" :      "active",
 			"contact" :     "?Pjadamia",
-			"type" :        "Item",
 			"year" :        "2007",
+			"type" :        "Item",
 			"label" :       "PlotterPilot",
-			"description" : "This program was able to conver NS-Bezier paths into a series of objective C commands that could be translated into motion by a printer system. Our system uses VHDL code to handle the FXS chip of our control ciruct."
+			"description" : "Converts NS-Bezier paths into a series of objective C commands that could be translated into motion by a printer system. The system uses VHDL code to handle the FXS chip of our control ciruct."
 		},
 		{
+			"source" :      "https:\/\/docs.google.com\/open?id=0BwUav0RF6ukrZGFlZDg1NjItMGM5My00MDcxLTg4YTUtMjUzMjg0YzNkYzVk",
+			"url" :         "http:\/\/www.sbolstandard.org\/specification\/extensions\/visual",
+			"category" :    "Language definition",
+			"team" :        "Stanford",
+			"dependency" :  "N\/A",
+			"update" :      "March 2012",
+			"status" :      "active",
+			"contact" :     "Cesar Rodriguez",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2009",
+			"label" :       "SBOLv - Synthetic Biology Open Language Visual",
+			"description" : "A graphical notation that supports biological device development. It provides a formal notation for describing the physical composition of basic parts into composite parts during the development of biological devices. It is targeted for use by biological engineers in forward engineering projects. It encourages and supports model-driven engineering. SBOLv is an extension of SBOL."
+		},
+		{
+			"source" :      "http:\/\/2008.igem.org\/wiki\/images\/9\/94\/VFB1.0.zip",
 			"url" :         "http:\/\/2008.igem.org\/Team:Bologna\/Software",
 			"category" :    "Image analysis",
 			"team" :        "Bologna",
 			"update" :      "2008",
 			"status" :      "active",
-			"contact" :     "?",
-			"type" :        "Item",
+			"contact" :     "Marco Caprini, Emanuele Giordano",
 			"year" :        "2008",
+			"type" :        "Item",
 			"label" :       "Visual Fluo Bacteria",
-			"description" : "a software for the analysis of bacteria fluorescence images"
+			"description" : "Analysis of bacteria fluorescence images"
 		},
 		{
-			"url" :         "http:\/\/2008.igem.org\/Team:Newcastle_University\/Evolutionary_Algorithm, could not find download link (supposed to be here: http:\/\/research.ncl.ac.uk\/synthetic_biology\/downloads.html)",
+			"url" :         "http:\/\/2008.igem.org\/Team:Newcastle_University\/Evolutionary_Algorithm",
 			"category" :    "Circuit simulation\/optimization",
 			"team" :        "Newcastle_University",
 			"update" :      "10\/29\/2008",
 			"status" :      "not found",
-			"contact" :     "http:\/\/2008.igem.org\/Team:Newcastle_University\/Team, lead developer: Mark Wappett",
+			"contact" :     "Mark Wappett",
 			"type" :        "Item",
 			"year" :        "2008",
 			"label" :       "Evolutionary Algorithm",
-			"description" : "Part of a software collection designed by 2008 Newcastle iGem team. The EA takes parts from the Parts Repository, assembles them randomly, but using constraints from the Constraints Repository, and evaluates the \"fitness\" of the resulting circuit depending on a desired input:output mapping. Equivalent parts with different parameters are swapped in and out at random, and fitter circuits selected in an iterative manner."
+			"description" : "Takes parts from the Parts Repository, assembles them randomly, but using constraints from the Constraints Repository, and evaluates the \"fitness\" of the resulting circuit depending on a desired input:output mapping. Equivalent parts with different parameters are swapped in and out at random, and fitter circuits selected in an iterative manner. Part of a software collection designed by 2008 Newcastle iGem team."
 		},
 		{
 			"url" :         "http:\/\/2008.igem.org\/Team:KULeuven\/Software\/Simbiology2LaTeX",
@@ -530,19 +972,76 @@
 			"type" :        "Item",
 			"year" :        "2008",
 			"label" :       "Simbiology2LaTeX (MATLAB)",
-			"description" : "We've written a small toolbox to convert the information in the Matlab Simbiology models to LaTeX-code. This code can be easily converted to a pdf-file with various open source programs (e.g. TeXnicCenter for Windows). The idea for this toolbox is based on the plugin Squeezer for CellDesigner."
+			"description" : "Convert the information in the Matlab Simbiology models to LaTeX-code. This code can be easily converted to a pdf-file with various open source programs (e.g. TeXnicCenter for Windows). The idea for this toolbox is based on the plugin Squeezer for CellDesigner."
 		},
 		{
-			"url" :         "http:\/\/2008.igem.org\/Team:Newcastle_University\/Workbench, could not find download link (supposed to be here: http:\/\/research.ncl.ac.uk\/synthetic_biology\/downloads.html)",
+			"source" :      "https:\/\/github.com\/haydnKing\/Gibthon",
+			"url" :         "http:\/\/gibthon.org\/",
+			"category" :    "Assembly Planning, Gibson Assembly",
+			"team" :        "Cambridge",
+			"dependency" :  "web",
+			"update" :      "Dec 2011",
+			"status" :      "active",
+			"contact" :     "Haydn King, Bill Collins (bill@gibthon.org)",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "Gibthon Molarity Calculator",
+			"description" : "Molarity Calculator for Gibson Assembly"
+		},
+		{
+			"source" :      "not available",
+			"url" :         "http:\/\/2011.igem.org\/Team:Dundee\/Software",
+			"category" :    "DNA sequence Design",
+			"team" :        "Dundee",
+			"dependency" :  "Android, iOS",
+			"update" :      "Oct 2011",
+			"status" :      "finished",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "The Gene Cutter",
+			"description" : "Helps restriction mapping of nucleotide sequences and to search a sequence for a specific enzyme and can also return a list of enzymes not present in the sequence."
+		},
+		{
+			"source" :      "not available",
+			"url" :         "http:\/\/2011.igem.org\/Team:Dundee\/dnaapp, http:\/\/2011.igem.org\/Team:Dundee\/Software",
+			"category" :    "Codon optimization, DNA sequence Design",
+			"team" :        "Dundee",
+			"dependency" :  "web",
+			"update" :      "Oct 2011",
+			"status" :      "finished",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "Gene Synthesiser",
+			"description" : "Enables codon optimization by codon usage pattern-matching. The application analyses the patterns of codon usage of the gene that one wants to express, in its native organism and generates new synthetic DNA sequence optimised for the codon usage of the new target organism, yet matching any patterns of rare to common codons. Gene Synthesiser utilises codon usage data for over 35000 organisms."
+		},
+		{
+			"source" :      "http:\/\/research.ncl.ac.uk\/synthetic_biology\/downloads.html)",
+			"url" :         "http:\/\/2008.igem.org\/Team:Newcastle_University\/Workbench",
 			"category" :    "Circuit design",
 			"team" :        "Newcastle_University",
 			"update" :      "10\/29\/2008",
 			"status" :      "not found",
-			"contact" :     "http:\/\/2008.igem.org\/Team:Newcastle_University\/Team, Workbench lead developer: Morgan Taschuk",
-			"type" :        "Item",
+			"contact" :     "Morgan Taschuk",
 			"year" :        "2008",
-			"label" :       "Workbench",
-			"description" : "Part of a software collection designed by 2008 Newcastle iGem team. The Workbench Module is a graphical front end that allows circuits to be designed by hand, using drag-and-drop of icons, and drawing upon the Parts Repository and the Constraints Repository. The designed circuits can then be sent to the Evolutionary Algorithm to be further refined."
+			"type" :        "Item",
+			"label" :       "Parts Repository Module",
+			"description" : "Circuit design by hand, a graphical interface using drag-and-drop of icons, and drawing upon the Parts Repository and the Constraints Repository. The designed circuits can then be sent to the Evolutionary Algorithm to be further refined. Part of a software collection designed by 2008 Newcastle iGem team."
+		},
+		{
+			"url" :         "http:\/\/2010.igem.org\/Team:USTC_Software\/MoDeL",
+			"category" :    "modelling, database",
+			"team" :        "USTC-Software",
+			"dependency" :  "http:\/\/sourceforge.net\/projects\/ustc-igame\/files\/",
+			"update" :      "2010",
+			"status" :      "finished",
+			"contact" :     "Hao Jiang",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "MoDeL -update",
+			"description" : "Rule-based modeling language and a database of templates to create models of gene circuits or reaction networks. Parts, biochemical reactions and species, \"etc\" and combined to form an SBML file. Templates are used to enforce functional \"rules\". Note: The documentation is lacking in clarity and does not explain the relationship of this approach to other well known modelling and simulation research."
 		},
 		{
 			"url" :         "http:\/\/django.gibthon.org\/tools\/ligcalc\/",
@@ -556,7 +1055,21 @@
 			"type" :        "Item",
 			"year" :        "2010",
 			"label" :       "Ligation Calculator",
-			"description" : "\"The ligation calculator is a simple tool to help you calculate the volumes of DNA used for ligations.\""
+			"description" : "Helps calculate the volumes of DNA used for ligation."
+		},
+		{
+			"url" :         "http:\/\/2011.igem.org\/Team:BU_Wellesley_Software\/G-nomeSurferPro",
+			"category" :    "Sequence Analysis, Literature",
+			"team" :        "BU_Wellesley_Software",
+			"dependency" :  "Microsoft Surface",
+			"update" :      "Sept 2011",
+			"status" :      "finished",
+			"contact" :     "Douglas Densmore",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "G-Nome Surfer Pro",
+			"description" : "An integrated environment for viewing prokaryotic genomic data and literature. Users can find genes on the chromosome wheel or search for a gene name or Genbank number, access Genbank notes and publications from Pubmed and view alignment and translation from the chromosome bar. The extended desktop provides distraction free workspace for information processing and hypothesis formation. The Microsoft Surface allows users to collaborate in pairs and teams on design and research tasks."
 		},
 		{
 			"url" :         "http:\/\/2009.igem.org\/Team:Illinois-Tools\/Project",
@@ -571,15 +1084,6 @@
 			"description" : "Open source, web based program that involves model-guided cellular engineering where new metabolic functions can be added to existing microorganisms. This program will assist in the design stage of synthetic biology research. IMP tools is written primarily in python using the Django web framework. It takes a user-defined input compound, output compound, and weighting scheme and determines the ideal pathway from the starting to the ending compound."
 		},
 		{
-			"status" :      "Active",
-			"label" :       "DIY-Gem",
-			"team" :        "Baltimore_US",
-			"type" :        "Item",
-			"year" :        "2010",
-			"description" : "Our project expands the accessibility of Taq polymerase by engineering it to BioBrick standards. This allows for the expression and recovery of polymerase from transformed E. coli at a fraction of the cost of highly purified commercial enzyme.",
-			"category" :    "low-cost high-throughput gene synthesis"
-		},
-		{
 			"url" :         "http:\/\/2008.igem.org\/Team:KULeuven\/Software\/MultiCell",
 			"category" :    "Matlab",
 			"team" :        "KULeuven",
@@ -590,31 +1094,78 @@
 			"type" :        "Item",
 			"year" :        "2008",
 			"label" :       "Multi-cell toolbox (Matlab)",
-			"description" : "Have you ever wanted to simulate the effects of your MATLAB Symbiology project in a multicellular environment? This toolbox enables you to expand your 'what happens in 1 cell'-model into a network of interconnected cells with the full abilities of a growing population of cells. It delivers you an easy-to-use graphical interface to configure the simulation settings and with just 1 click an extensive simulation is started."
+			"description" : "Expand your single-cell-model to a network of interconnected cells, a growing population of cells. Provides MATLAB Symbiology project in a multicellular environment. An easy-to-use graphical interface to configure the simulation settings and one click simulation."
 		},
 		{
-			"url" :         "http:\/\/2009.igem.org\/Team:UNIPV-Pavia\/Software AND DOWNLOAD here http:\/\/aimed11.unipv.it\/SequenceAlignment\/",
+			"source" :      "http:\/\/aimed11.unipv.it\/SequenceAlignment\/",
+			"url" :         "http:\/\/2009.igem.org\/Team:UNIPV-Pavia\/Software",
 			"category" :    "sequence alignment",
 			"team" :        "UNIPV-Pavia",
+			"dependency" :  "Matlab",
 			"update" :      "October 2009",
 			"status" :      "Finished",
 			"contact" :     "paolo.magni@unipv.it",
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "SequenceAlignment",
-			"description" : "Align sequencing results with expected sequences. Assembling simple parts.Matlab required"
+			"description" : "Align sequencing results with expected sequences. Assembling simple parts."
 		},
 		{
+			"source" :      "not available",
+			"url" :         "http:\/\/2009.igem.org\/Team:Washington-Software\/Downloads",
+			"category" :    "Hardware driver, Robotics",
+			"team" :        "Washington-Software",
+			"dependency" :  "ROBOTC",
+			"update" :      "October 2009",
+			"status" :      "Finished",
+			"contact" :     "http:\/\/2009.igem.org\/Team:Washington-Software\/Team",
+			"free" :        "not available",
+			"type" :        "Item",
+			"year" :        "2009",
+			"label" :       "BioBrick-A-Bot",
+			"description" : "A cheap alternative to Commercial Liquid Handling Systems. The robot was built using Lego bricks, and is designed to be modular in design, allowing for user-designed parts and added functionality. Source code for the drivers that operate the BioBrick-A-Bot."
+		},
+		{
+			"source" :      "http:\/\/2008.igem.org\/wiki\/images\/e\/e0\/ARQ1.1source.zip",
 			"url" :         "http:\/\/2008.igem.org\/Team:Bologna\/Software",
 			"category" :    "Repository",
 			"team" :        "Bologna",
 			"update" :      "2008",
 			"status" :      "active",
-			"contact" :     "?",
-			"type" :        "Item",
+			"contact" :     "Marco Caprini, Emanuele Giordano",
 			"year" :        "2008",
+			"type" :        "Item",
 			"label" :       "ARQ",
-			"description" : "a Java tool to query the Registry"
+			"description" : "Query the Registry"
+		},
+		{
+			"source" :      "https:\/\/github.com\/haydnKing\/Gibthon",
+			"url" :         "http:\/\/gibthon.org\/",
+			"category" :    "Primer Design, Gibson Assembly",
+			"team" :        "Cambridge",
+			"dependency" :  "web",
+			"update" :      "Dec 2011",
+			"status" :      "active",
+			"contact" :     "Haydn King, Bill Collins (bill@gibthon.org)",
+			"free" :        "yes",
+			"type" :        "Item",
+			"year" :        "2011",
+			"label" :       "Gibthon Primer Calculator",
+			"description" : "Easy to use web based tool for primer design for Gibson Assembly, reducing the chance of errors while designing primers. While some degree of common sense will always be required, Gibthon will reduce the chance of making mistakes while designing these primers."
+		},
+		{
+			"url" :         "http:\/\/2010.igem.org\/Team:TU_Delft#page=Software\/part-search",
+			"category" :    "Registry, Query, Webservice",
+			"team" :        "TU_Delft",
+			"dependency" :  "No",
+			"update" :      "2010",
+			"status" :      "Finished",
+			"contact" :     "Jelmer Cnossen",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "Partsregistry Query Service",
+			"description" : "A part information service enables browsing parts by category, as specified by each part in the partsregistry editor. It also supports a range of other webservices that can be used by javascript or other applications."
 		},
 		{
 			"url" :         "http:\/\/2008.igem.org\/Team:TUDelft\/Temperature_software",
@@ -626,7 +1177,7 @@
 			"type" :        "Item",
 			"year" :        "2008",
 			"label" :       "RNA Hairpin Designer",
-			"description" : "The RNA hairpin designer is a software tool that designs RNA sequences that will form a hairpin structure with a given stability profile. This way, a temperature sensitive hairpin can be designed automatically."
+			"description" : "Designs RNA sequences that will form a hairpin structure with a given stability profile. A temperature sensitive hairpin can be designed automatically."
 		},
 		{
 			"url" :         "http:\/\/eugenecad.org\/",
@@ -640,7 +1191,7 @@
 			"type" :        "Item",
 			"year" :        "2009",
 			"label" :       "Eugene",
-			"description" : "Eugene - Biological programming language to constrain the composition of genetic parts as a specification of biological constructs. One can both specify the structure of the design (its basic elements) as well composites of basic elements. A system of rules for part composition is also provided."
+			"description" : "Biological programming language to constrain the composition of genetic parts as a specification of biological constructs. One can both specify the structure of the design (its basic elements) as well composites of basic elements. A system of rules for part composition is also provided."
 		},
 		{
 			"url" :         "http:\/\/django.gibthon.org\/",
@@ -654,7 +1205,22 @@
 			"type" :        "Item",
 			"year" :        "2010",
 			"label" :       "Gibthon Construct Designer",
-			"description" : "\"Gibthon's older brother, and much more powerful. With this, you can design your construct from its component genes and automatically generate the optimal primers. The tool has access to the Parts Registry Database, the NCBI's Nucleotide database, as well as accepting genbank formatted files from the user. The user is able to store constructs and their own genes for recovery later.\""
+			"description" : "Design your construct from its component genes and automatically generate the optimal primers. The tool has access to the Parts Registry Database, the NCBI\'s Nucleotide database, as well as accepting genbank formatted files from the user. The user is able to store constructs and their own genes for recovery later. A powerful Gibthon tool."
+		},
+		{
+			"source" :      "http:\/\/2010.igem.org\/wiki\/images\/c\/ca\/TUM2010_Software_src.zip",
+			"url" :         "http:\/\/2010.igem.org\/Team:TU_Munich\/Software",
+			"category" :    "DNA design",
+			"team" :        "TU_Munich",
+			"dependency" :  "No",
+			"update" :      "November 2010",
+			"status" :      "Finished",
+			"contact" :     "igem@ph.tum.de",
+			"free" :        "Yes",
+			"type" :        "Item",
+			"year" :        "2010",
+			"label" :       "connect BioBricks",
+			"description" : "Generate a single DNA plasmid that contains the custom network entered as input. The software uses a set of predefined DNA designs for AND, OR and NOT gates to generate the gene circuit. A selected few BioBricks serve as input and ouput to the network. In principle, any (of at least 200) transcription-regulating BioBrick can be used as an input, and any gene can serve as an output."
 		}
 	]
 }
