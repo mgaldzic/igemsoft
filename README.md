@@ -20,7 +20,7 @@ How to update
 3. Find/Replace all \t, \<tab\>, "	" chars with a \<space\>, " ".
 4. Download as Text - creates a tab separated value (TSV) file.
 5. Use Babel http://service.simile-widgets.org/babel/ to convert to Exhibit JSON.
-6. Replace all "\'" with "'", the "\" \<escape\> char is not needed and throws an error. Eg in vi use: <code>:% s/\\'/'/g </code>
+6. Replace all "\'" with "'", the "\" \<escape\> char is not needed and throws an error. Eg in vi use: <code>:% s/\\\'/'/g </code>
 7. Test the new/updated data, submit pull request
 
 Exhibit Refrence Docs
