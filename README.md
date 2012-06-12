@@ -15,17 +15,13 @@ see Exhibit 3.0 for generic docs: http://www.simile-widgets.org/exhibit3/
 How to update
 ------------
 
-1. Starting with the googlespreadheet iGEMSoftwareLinks https://docs.google.com/spreadsheet/ccc?key=0AkuvTGMlkqD1dFNUR1F0cGdzRmdyUFBfX0VXY3VhbVE
-2. Make a Copy - name using date. eg 20120425iGEMSoftwareLinks
-3. Remove the 1st 2 columns, up to "year"
-4. Sort (Range) by Description. This puts the rows with a description at the top.
-5. Delete all rows without descriptions.
-6. Find/Replace all \t, \<tab\>, "	" chars with a \<space\>, " ".
-7. Put in the following as the header row, best to copy from another spreadsheet: "year	team	label	description	category	url	update	status	contact	dependency	free	source"
-8. Download as Text -this will make a tab separated value (TSV) file.
-9. Use Babel http://service.simile-widgets.org/babel/ to convert to Exhibit JSON.
-10. Replace all "\'" with "'", the "\" \<escape\> char is not needed and throws an error. Eg in vi use: <code>:% s/\\'/'/g </code>
-11. Test the new/updated data, submit pull request
+1. Starting with the googlespreadheet iGEMSoftware https://docs.google.com/spreadsheet/ccc?key=0AkuvTGMlkqD1dGJoU2pGNmQwLTUyRmtwVmlrOEwxMWc
+2. Make a Copy - name using date. eg 20120612iGEMSoftware
+3. Find/Replace all \t, \<tab\>, "	" chars with a \<space\>, " ".
+4. Download as Text - creates a tab separated value (TSV) file.
+5. Use Babel http://service.simile-widgets.org/babel/ to convert to Exhibit JSON.
+6. Replace all "\'" with "'", the "\" \<escape\> char is not needed and throws an error. Eg in vi use: <code>:% s/\\\'/'/g </code>
+7. Test the new/updated data, submit pull request
 
 Exhibit Refrence Docs
 ---------------------
