@@ -1,7 +1,13 @@
 iGEMsoft
 ========
-The listing of iGEM Software division projects is on the web:
+Listing of iGEM Software division projects:
 http://igem.synbioreview.com/
+
+How to make corrections:
+------------------------
+1. Edit this googlespreadheet iGEMSoftware https://docs.google.com/spreadsheet/ccc?key=0AkuvTGMlkqD1dGJoU2pGNmQwLTUyRmtwVmlrOEwxMWc
+2. Submit an issue to inform me of the update: https://github.com/mgaldzic/igemsoft/issues
+
 
 How it works:
 -------------
