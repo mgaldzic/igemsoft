@@ -29,7 +29,7 @@ How to update
 6. Replace all "\'" with "'", the "\" \<escape\> char is not needed and throws an error. Eg in vi use: <code>:% s/\\\'/'/g </code>
 7. Test the new/updated data, submit pull request
 
-Note: <code>git pull origin dev</dev> - to merge with dev on GitHub
+Note: <code>git pull origin dev</code> - to merge with dev on GitHub
 
 Exhibit Refrence Docs
 ---------------------
