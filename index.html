@@ -3,8 +3,17 @@
     <title>iGEM Software division</title>
     <link rel="stylesheet" href="http://www.simile-widgets.org/styles/common.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+<!--
     <link rel="exhibit-data" href="data.js" />
+-->
+    <link rel="exhibit/data" 
+       type="application/jsonp"
+       href="https://spreadsheets.google.com/feeds/list/0AkuvTGMlkqD1dE9YNXJaX3JNWHA5RV9YQUw3anpaZ1E/od4/public/basic?alt=json-in-script"
+       ex:converter="googleSpreadsheets" />
     <script src="http://api.simile-widgets.org/exhibit/3.0.0rc1/exhibit-api.js" type="text/javascript"></script>
+<!--
+    <script src="exhibit3/scripted/dist/exhibit-api.js" type="text/javascript"></script>
+-->
 <script type="text/javascript" src="analyze.js" ></script>
 </head>
 <body>
@@ -35,7 +44,11 @@
 	              <td>
                     <div class="title"><span ex:content=".label"></span> - <span ex:content=".team"></span></div>
 		    <div class="inclusion"><span class="property">Year:</span><span ex:content=".year"></span></div>
+<!--
+-->
                     <div class="definition" ex:content=".description"></div>
+<!--
+-->
                     <div class="property" ex:content=".dependency"></div>
 
 		    <div class="exclusion"><span class="property">URL:</span>
