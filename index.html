@@ -1,6 +1,7 @@
-<html>
+<html itemscope itemtype="http://schema.org/Review">
+
 <head>
-    <title>iGEM Software division</title>
+    <title>iGEMsoft - iGEM Software projects</title>
     <link rel="stylesheet" href="http://www.simile-widgets.org/styles/common.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
 <!--
@@ -10,10 +11,49 @@
        type="application/jsonp"
        href="https://spreadsheets.google.com/feeds/list/0AkuvTGMlkqD1dE9YNXJaX3JNWHA5RV9YQUw3anpaZ1E/od4/public/basic?alt=json-in-script"
        ex:converter="googleSpreadsheets" />
+
     <script src="http://api.simile-widgets.org/exhibit/3.0.0rc1/exhibit-api.js" type="text/javascript"></script>
 <!--
     <script src="exhibit3/scripted/dist/exhibit-api.js" type="text/javascript"></script>
 -->
+
+<!-- Add the description for sharing -->
+
+<!-- Google+ -->
+<meta itemprop="name" content="iGEMsoft">
+<meta itemprop="description" content="Complete collection of iGEM software projects 2007-2011">
+<meta itemprop="image" content="igemSoftview_sm.gif">
+
+<!-- FB -->
+<meta property="og:title" content="iGEM Software projects" />
+<meta property="og:description" content="Complete collection of iGEM software projects 2007-2011" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://dev.igem.synbioreview.com/igemSoftview_fb.gif" />
+<meta property="og:site_name" content="iGEMsoft" />
+<meta property="fb:admins" content="632422691" />
+<!-- Google -->
+<!--
+<meta name="description" content="Complete collection of iGEM software projects 2007-2011" />
+-->
+<!--<meta property="fb:admins" content="100003985967089" />-->
+<!-- FB like -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- G+ button script -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
 <script type="text/javascript" src="analyze.js" ></script>
 </head>
 <body>
@@ -29,6 +69,17 @@
               ex:sortMode="count"
               ex:height="40em"
               ex:facetLabel="iGEM Team"></div> 
+         <!-- Place this tag where you want the +1 button to render -->
+         <div>
+         <g:plusone size="medium"></g:plusone>
+         <div class="fb-like" 
+              data-href="http://dev.igem.synbioreview.com/" 
+              data-layout="button_count" 
+              data-width="50" 
+              data-show-faces="true">
+        </div>
+         </div>
+         
         </td>
         <td>
           <div ex:role="view"
