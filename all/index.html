@@ -1,7 +1,7 @@
 <html itemscope itemtype="http://schema.org/Review">
 
 <head>
-    <title>iGEMsoft - iGEM Software projects</title>
+    <title>iGEM Database - iGEM projects</title>
     <link rel="stylesheet" href="http://www.simile-widgets.org/styles/common.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
 <!--
@@ -9,7 +9,7 @@
 -->
     <link rel="exhibit/data" 
        type="application/jsonp"
-       href="https://spreadsheets.google.com/feeds/list/0AkuvTGMlkqD1dFJ2ZHRxNml6VmFNQ2JSSU1SZEpfQ3c/od4/public/basic?alt=json-in-script"
+       href="https://spreadsheets.google.com/feeds/list/0AvRcIbigV-eYdGNHMmxGVy13UkhpUi1Vck9zMmZRSUE/od6/public/basic?alt=json-in-script"
        ex:converter="googleSpreadsheets" />
 
     <script src="http://api.simile-widgets.org/exhibit/3.0.0rc1/exhibit-api.js" type="text/javascript"></script>
@@ -20,16 +20,16 @@
 <!-- Add the description for sharing -->
 
 <!-- Google+ -->
-<meta itemprop="name" content="iGEMsoft">
-<meta itemprop="description" content="Complete collection of iGEM software projects 2007-2011">
+<meta itemprop="name" content="iGEM Database">
+<meta itemprop="description" content="Complete collection of iGEM projects 2007-2011">
 <meta itemprop="image" content="igemSoftview_sm.gif">
 
 <!-- FB -->
-<meta property="og:title" content="iGEM Software projects" />
-<meta property="og:description" content="Complete collection of iGEM software projects 2007-2011" />
+<meta property="og:title" content="iGEM projects" />
+<meta property="og:description" content="Complete collection of iGEM projects 2007-2011" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="http://dev.igem.synbioreview.com/igemSoftview_fb.gif" />
-<meta property="og:site_name" content="iGEMsoft" />
+<meta property="og:site_name" content="iGEM Database" />
 <meta property="fb:admins" content="632422691" />
 <!-- Google -->
 <!--
@@ -59,7 +59,7 @@
 <body>
 
     <div id="content">
-    <h1>iGEMsoft</h1>
+    <h1>iGEM Database</h1>
     
     <table cellspacing="0" cellpadding="0" border="0" width="100%">
       <tr>
@@ -93,23 +93,22 @@
               <table cellpadding="0" cellspacing="0">
                 <tr class="details">
 	              <td>
-                    <div class="title"><span ex:content=".label"></span> - <span ex:content=".team"></span></div>
+                    <div class="title"><span ex:content=".label"></span></span></div>
 		    <div class="inclusion"><span class="property">Year:</span><span ex:content=".year"></span></div>
 <!--
 -->
                     <div class="definition" ex:content=".description"></div>
 <!--
 -->
-                    <div class="property" ex:content=".dependency"></div>
+                    <div class="property" ex:content=".region"></div>
 
 		    <div class="exclusion"><span class="property">URL:</span>
                         <a ex:href-content=".url"><span ex:content=".url"></a></span></div>
 		    <div class="exclusion"><span class="property">
-                         Development:</span> <span ex:content=".status"></span>
-                         Was last updated: <span ex:content=".update"></span> 
-                         Contact: <span ex:content=".contact"></span> 
+                         Medal:</span> <span ex:content=".medal"></span>
+                         Regional Prizes: <span ex:content=".regionalprize"></span> 
+                         Championship Prizes: <span ex:content=".championshipprize"></span> 
                          Free: <span ex:content=".free"></span> </div> 
-                    <div class="exclusion">Source: <a ex:href-content=".source"><span ex:content=".source"></a></span></div>
                     <div class="identifier"><span class="property">Category:</span><span ex:content=".category"></span></div>
                   </td>
 		</tr>
@@ -139,20 +138,25 @@
 	       ex:facetLabel="Year"
                ></div>
           <div ex:role="facet"
-               ex:expression=".dependency"
-               ex:facetLabel="Depends On:"
+               ex:expression=".medal"
+               ex:facetLabel="Medals:"
                ></div>
           <div ex:role="facet"
-               ex:expression=".free"
-               ex:facetLabel="Free?:"
+               ex:expression=".regionalprize"
+               ex:facetLabel="Regional Prizes:"
                ></div>
+          <div ex:role="facet"
+               ex:expression=".championshipprize"
+               ex:facetLabel="Championship Prizes:"
+               ></div>
+
 	  
 	</td>
       </tr>
     </table>
     </div>
 <div><table border=0 width=100%><tr valign=bottom><td align=left>This work is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png"></a> by Michal Galdzicki
-<br/>Derived from work at the <a href="http://www.facebook.com/groups/320000391386916/members/">Leukippos - Synthetic Biology Dry Lab</a></td>
-<td align=right>To correct an error edit: <a href="https://docs.google.com/spreadsheet/ccc?key=0AkuvTGMlkqD1dGJoU2pGNmQwLTUyRmtwVmlrOEwxMWc#gid=2">iGEM Software</a> and then <a href="https://github.com/mgaldzic/igemsoft/issues">Submit an Issue</a><br/>Powered by: <a href="http://www.simile-widgets.org/wiki/Exhibit3">Exhibit 3.0 Scripted</a></td></tr></div>
+<br/>Derived from work at the <a href="http://biospot10.blogspot.mx/2011/09/bio-igem-history-database.html">Bio! iGEM History Database 2.0 Beta by Miguel Loera-Sanchez and Team UANL_Mty-Mexico</a></td>
+<td align=right>To correct an error edit: <a href="https://docs.google.com/spreadsheet/ccc?key=0AvRcIbigV-eYdGNHMmxGVy13UkhpUi1Vck9zMmZRSUE#gid=0">iGEM Database</a> and then <a href="https://github.com/mgaldzic/igemsoft/issues">Submit an Issue</a><br/>Powered by: <a href="http://www.simile-widgets.org/wiki/Exhibit3">Exhibit 3.0 Scripted</a></td></tr></div>
 </body>
 </html>
